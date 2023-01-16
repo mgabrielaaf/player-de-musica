@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0F0D13;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+#player1{
+    display: flex;
+    width: 270px;
+    height: 522px;
+    border-radius: 11px;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2A2141;
+}
+
+#player2{
+    display: flex;
+    width: 360px;
+    height: 270px;
+    padding: 30px;
+    flex-wrap: wrap;
+    border-radius: 11px;
+    background-color: #2A2141;
+}
+
+#player3{
+    display: flex;
+    width: 360px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 11px;
+    background-color: #2A2141;
+}
+
+#img-1 {
+    width: 190px;
+    height: 190px;
+    margin-top: 50px;
+    border-radius: 11px;
+    border: 1px solid #2A2141;
+}
+
+#img-2, #img-3 {
+    width: 90px;
+    height: 90px;
+    border-radius: 11px;
+    border: 1px solid #2A2141;
+}
+
+#name-music-1 {
+    color: white;
+    font-size: 22px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+#names-2, #names-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#name-music-2, #name-music-3 {
+    color: white;
+    font-size: 22px;
+    margin: 0 18px;
+    font-family: sans-serif;
+}
+
+#name-artist-1 {
+    color: white;
+    font-size: 18px;
+    margin-top: 8px;
+    opacity: 65%;
+    font-family: sans-serif;
+}
+
+#name-artist-2, #name-artist-3 {
+    margin-left: 18px;
+    color: white;
+    font-size: 18px;
+    opacity: 65%;
+    font-family: sans-serif;
+}
+
+#players-1{
+    margin-top: 30px;
+    display: flex;
+    gap: 52px;
+    align-items: center;
+    justify-content: center;
+}
+
+#players-2 {
+    width: 370px;
+    margin-top: 30px;
+    display: flex;
+    gap: 52px;
+    align-items: center;
+    justify-content: center;
+}
+
+#players-3 {
+    margin-top: 30px;
+    display: flex;
+    gap: 52px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#bar-1, #bar-2{
+    margin-top: 27px;
+}
+
+#minuts-1 {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    gap: 132px;
+    opacity: 60%;
+    margin-top: 8px;
+    flex-direction: row;
+    font-family: sans-serif;
+}
+
+#minuts-2 {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    gap: 245px;
+    opacity: 60%;
+    margin-top: 8px;
+    flex-direction: row;
+    font-family: sans-serif;
+}
